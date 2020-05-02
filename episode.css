@@ -1,0 +1,65 @@
+
+  #nav_img{
+    width:auto;
+    height:30px;
+
+}
+#nav_id{
+margin-left: 100px;
+}
+.home{
+color:#6A1B9A;
+}
+button{
+width: 100px;;
+height:30px;
+border-radius: 8px;
+background-color: rgb(149, 233, 22);
+margin-left: 200px;
+
+}
+a{
+text-decoration: none;
+}
+body{
+background-image: url(resources/scooby_episodes.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;   
+font-size: medium;
+}
+.logo{
+width: 100px;
+height:100px;
+}
+.mainvid div{
+    display: flex;
+    flex-direction: column;
+     border: 1px;
+   margin-top: 120px;
+   margin-left: 140px;
+   margin-right: 30px;
+}
+.mainvid{
+    margin-top: 70px;
+}
+.mainvid #tx{
+    margin-left: 600px;
+    margin-top: -200px;
+    font-family: 'Anton', sans-serif;
+    font-size: x-large;
+}
+button:hover {
+    background-color: yellow;
+  }
+  @media only screen and (max-width: 600px) {
+    #nav_id{
+        display: flex;
+        flex-direction: column;
+    }
+    body{
+        background-image: unset;
+        background-color: yellow;
+    }
+}
